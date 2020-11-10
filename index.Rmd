@@ -1,0 +1,18 @@
+---
+title: "Labdemo"
+output: html_document
+---
+
+```{r echo=FALSE, include=FALSE}
+source_dir <- source("analysis.R")
+```
+
+## R Markdown
+this is lab demo website 
+
+```{r echo=FALSE}
+  cases_year_plot
+  cases_map
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
